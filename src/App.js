@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./Components/Header";
+import Summary from "./Components/Summary";
+import ExpInc from "./Components/ExpInc";
+import TransactionList from "./Components/TransactionList";
+import Update from "./Components/Update";
+import { GlobalProvider } from "./Components/Context/GlobalState";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalProvider>
+      <Header/>
+      <div className="mx-auto my-7 w-full">
+      <Summary/>
+      <ExpInc/>
+      <TransactionList/>
+      <Update/>
+      </div>
+    </GlobalProvider>
   );
 }
 
