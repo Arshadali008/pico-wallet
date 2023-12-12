@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pico-wallet/static/css/main.c48a2894.css",
+    "main.js": "/pico-wallet/static/js/main.95fc48ee.js",
+    "index.html": "/pico-wallet/index.html",
+    "main.c48a2894.css.map": "/pico-wallet/static/css/main.c48a2894.css.map",
+    "main.95fc48ee.js.map": "/pico-wallet/static/js/main.95fc48ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48a2894.css",
+    "static/js/main.95fc48ee.js"
+  ]
+}
